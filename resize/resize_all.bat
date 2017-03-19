@@ -1,0 +1,1 @@
+FOR /R %%f IN (*.jpg) DO convert "%%f" -resize 20%% "%%f" 
